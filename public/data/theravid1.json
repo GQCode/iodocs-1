@@ -67,9 +67,9 @@
                 },
                 "UpdatePatient": {
                     "name": "UpdatePatient",
-                    "path": "/a1/grab/{userId}",
-                    "httpMethod": "GET",
-                    "description": "Grabs information from the A1 data set for a specific user",
+                    "path": "/identity/patients/:patient_id/update",
+                    "httpMethod": "PUT",
+                    "description": "Updates data for a TheraVid patient",
                     "parameters": {
                       "patient_id": {
                          "required":"Y",
