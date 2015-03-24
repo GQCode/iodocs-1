@@ -1,0 +1,109 @@
+{
+    "name": "TheraVid API",
+    "description": "A StriveHub data exchange api.",
+    "protocol": "rest",
+    "basePath": "http://www.theravid-staging.com",
+    "publicPath": "/v1",
+    "auth": {
+        "key": {
+            "param": "api_key",
+            "location": "query"
+        }
+    },
+    "resources": {
+        "TheraVid Identity Methods": {
+            "methods": {
+                "GetPatient": {
+                    "name": "GetPatient",
+                    "path": "/identity/patients/:patient_id/profile",
+                    "httpMethod": "GET",
+                    "description": "Get patient identity profile.",
+                    "parameters": {
+                        "patient_id": {
+                           "required":"Y",
+                           "default":"",
+                           "type":"string",
+                           "description":"Provider ID"
+                        }
+                    }
+                },
+                "CreatePatient": {
+                    "name": "CreatePatient",
+                    "path": "/identity/patients",
+                    "httpMethod": "POST",
+                    "description": "Add a new patient to TheraVid",
+                    "parameters": {
+                      "patient_id": {
+                         "required":"Y",
+                         "refault":"548768",
+                         "type":"string",
+                         "description":"The patient ID from the provider EHR."
+                      },
+                      "first_name": {
+                         "required":"Y",
+                         "default":"Bob",
+                         "type":"string",
+                         "description":"The first name of the patient."
+                      },
+                      "last_name": {
+                         "required":"Y",
+                         "default":"Jones",
+                         "type":"string",
+                         "description":"The last name of the patient."
+                      },
+                      "email": {
+                         "required":"Y",
+                         "default":"jones@example.com",
+                         "type":"string",
+                         "description":"The email of the patient."
+                      },
+                      "birthday": {
+                         "required":"Y",
+                         "default":"12/12/2012",
+                         "type":"string",
+                         "description":"The birthday of the patient."
+                      }
+                    }
+                },
+                "UpdatePatient": {
+                    "name": "UpdatePatient",
+                    "path": "/a1/grab/{userId}",
+                    "httpMethod": "GET",
+                    "description": "Grabs information from the A1 data set for a specific user",
+                    "parameters": {
+                      "patient_id": {
+                         "required":"Y",
+                         "refault":"548768",
+                         "type":"string",
+                         "description":"The patient ID from the provider EHR."
+                      },
+                      "first_name": {
+                         "required":"Y",
+                         "default":"Bob",
+                         "type":"string",
+                         "description":"The first name of the patient."
+                      },
+                      "last_name": {
+                         "required":"Y",
+                         "default":"Jones",
+                         "type":"string",
+                         "description":"The last name of the patient."
+                      },
+                      "email": {
+                         "required":"Y",
+                         "default":"jones@example.com",
+                         "type":"string",
+                         "description":"The email of the patient."
+                      },
+                      "birthday": {
+                         "required":"Y",
+                         "default":"12/12/2012",
+                         "type":"string",
+                         "description":"The birthday of the patient."
+                      }
+                    }
+                }
+            }
+        }
+    }
+}

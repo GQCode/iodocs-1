@@ -1,0 +1,127 @@
+{
+   "endpoints":[
+      {
+         "name":"Identity",
+         "methods":[
+            {
+               "MethodName":"Patient",
+               "Synopsis":"Get patient identity profile",
+               "HTTPMethod":"GET",
+               "URI":"/identity/patients/:patient_id/profile",
+               "RequiresOAuth":"N",
+               "parameters":[
+                  {
+                     "Name":"patient_id",
+                     "Required":"Y",
+                     "Default":"",
+                     "Type":"string",
+                     "Description":"Provider ID"
+                  }
+               ]
+            },
+            {
+               "MethodName":"Add Patient",
+               "Synopsis":"Add a new patient",
+               "HTTPMethod":"POST",
+               "URI":"/identity/patients",
+               "RequiresOAuth":"N",
+               "parameters":[
+                  {
+                     "Name":"patient_id",
+                     "Required":"Y",
+                     "Default":"548768",
+                     "Type":"string",
+                     "Description":"The patient ID from the provider EHR."
+                  },
+                  {
+                     "Name":"first_name",
+                     "Required":"Y",
+                     "Default":"Bob",
+                     "Type":"string",
+                     "Description":"The first name of the patient."
+                  },
+                  {
+                     "Name":"last_name",
+                     "Required":"Y",
+                     "Default":"Jones",
+                     "Type":"string",
+                     "Description":"The last name of the patient."
+                  },
+                  {
+                     "Name":"email",
+                     "Required":"Y",
+                     "Default":"jones@example.com",
+                     "Type":"string",
+                     "Description":"The email of the patient."
+                  },
+                  {
+                     "Name":"birthday",
+                     "Required":"Y",
+                     "Default":"12/12/2012",
+                     "Type":"string",
+                     "Description":"The birthday of the patient."
+                  }
+               ]
+            },
+            {
+               "MethodName":"Update Patient",
+               "Synopsis":"Update patient info",
+               "HTTPMethod":"PUT",
+               "URI":"/identity/patients/:patient_id/update",
+               "RequiresOAuth":"N",
+               "parameters":[
+                  {
+                     "Name":"patient_id",
+                     "Required":"Y",
+                     "Default":"",
+                     "Type":"string",
+                     "Description":"The patient ID from the provider EHR."
+                  },
+                  {
+                     "Name":"first_name",
+                     "Required":"N",
+                     "Default":"",
+                     "Type":"string",
+                     "Description":"The first name of the patient"
+                  },
+                  {
+                     "Name":"last_name",
+                     "Required":"N",
+                     "Default":"",
+                     "Type":"string",
+                     "Description":"The last name of the patient"
+                  },
+                  {
+                     "Name":"user_name",
+                     "Required":"N",
+                     "Default":"",
+                     "Type":"string",
+                     "Description":"The user name of the patient"
+                  },
+                  {
+                     "Name":"password",
+                     "Required":"N",
+                     "Default":"",
+                     "Type":"string",
+                     "Description":"The password for portal access"
+                  },
+                  {
+                     "Name":"email",
+                     "Required":"N",
+                     "Default":"",
+                     "Type":"string",
+                     "Description":"The email of the patient"
+                  },
+                  {
+                     "Name":"birthday",
+                     "Required":"N",
+                     "Default":"",
+                     "Type":"string",
+                     "Description":"The birthday of the patient"
+                  }
+               ]
+            }
+         ]
+      }
+   ]
+}

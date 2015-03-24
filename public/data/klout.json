@@ -1,19 +1,20 @@
 {
     "auth": {
         "key": {
-            "param": "key"
+            "param": "key",
+            "location": "query"
         }
     },
-    "basePath": "http://api.klout.com",
-    "name": "Partner API v2",
+    "basePath": "http://www.theravid-staging.com",
+    "name": "TheraVid API v1",
     "protocol": "rest",
-    "publicPath": "/v2",
-    "version": "2.0",
+    "publicPath": "/v1",
+    "version": "1.0",
     "resources": {
         "Identity Methods": {
             "methods": {
-                "IdentityGoogle": {
-                    "description": "This method allows you to retrieve a KloutID for numeric google_plus_id",
+                "GetPatient": {
+                    "description": "Get TheraVid patient identity profile.",
                     "httpMethod": "GET",
                     "name": "Identity(Google+)",
                     "parameters": {
@@ -85,70 +86,6 @@
                         }
                     },
                     "path": "/identity.json/twitter"
-                }
-            }
-        },
-        "User Methods": {
-            "methods": {
-                "Influence": {
-                    "description": "This method allows you to retrieve a user's influencers and influencees.",
-                    "httpMethod": "GET",
-                    "name": "Influence",
-                    "parameters": {
-                        "kloutId": {
-                            "default": "635263",
-                            "description": "A kloutId (like 635263)",
-                            "location": "path",
-                            "required": true,
-                            "type": "string"
-                        }
-                    },
-                    "path": "/user.json/{kloutId}/influence"
-                },
-                "Score": {
-                    "description": "This method allows you to retrieve a user's Klout Score and deltas.",
-                    "httpMethod": "GET",
-                    "name": "Score",
-                    "parameters": {
-                        "kloutId": {
-                            "default": "635263",
-                            "description": "A kloutId (like 635263)",
-                            "location": "path",
-                            "required": true,
-                            "type": "string"
-                        }
-                    },
-                    "path": "/user.json/{kloutId}/score"
-                },
-                "ShowUser": {
-                    "description": "This method allows you to retrieve a user.",
-                    "httpMethod": "GET",
-                    "name": "Show User",
-                    "parameters": {
-                        "kloutId": {
-                            "default": "635263",
-                            "description": "A kloutId (like 635263)",
-                            "location": "path",
-                            "required": true,
-                            "type": "string"
-                        }
-                    },
-                    "path": "/user.json/{kloutId}"
-                },
-                "Topics": {
-                    "description": "This method allows you to retrieve a user's topics.",
-                    "httpMethod": "GET",
-                    "name": "Topics",
-                    "parameters": {
-                        "kloutId": {
-                            "default": "635263",
-                            "description": "A kloutId (like 635263)",
-                            "location": "path",
-                            "required": true,
-                            "type": "string"
-                        }
-                    },
-                    "path": "/user.json/{kloutId}/topics"
                 }
             }
         }
