@@ -1,0 +1,807 @@
+Express server starting on 0.0.0.0:3000
+66.168.44.202 - - [Tue, 24 Mar 2015 14:37:13 GMT] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+66.168.44.202 - - [Tue, 24 Mar 2015 14:37:13 GMT] "GET /stylesheets/prettify.css HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+66.168.44.202 - - [Tue, 24 Mar 2015 14:37:13 GMT] "GET /stylesheets/style.css HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+66.168.44.202 - - [Tue, 24 Mar 2015 14:37:13 GMT] "GET /stylesheets/jquery-ui-latest.custom.css HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+66.168.44.202 - - [Tue, 24 Mar 2015 14:37:13 GMT] "GET /stylesheets/form.css HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+66.168.44.202 - - [Tue, 24 Mar 2015 14:37:13 GMT] "GET /stylesheets/alpaca-jqueryui.css HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+66.168.44.202 - - [Tue, 24 Mar 2015 14:37:13 GMT] "GET /javascripts/jquery-1.11.1.min.js HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+66.168.44.202 - - [Tue, 24 Mar 2015 14:37:13 GMT] "GET /javascripts/jquery.tmpl.js HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+66.168.44.202 - - [Tue, 24 Mar 2015 14:37:13 GMT] "GET /javascripts/jquery-ui-latest.custom.min.js HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+66.168.44.202 - - [Tue, 24 Mar 2015 14:37:13 GMT] "GET /javascripts/alpaca.js HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+66.168.44.202 - - [Tue, 24 Mar 2015 14:37:13 GMT] "GET /javascripts/form.js HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+66.168.44.202 - - [Tue, 24 Mar 2015 14:37:13 GMT] "GET /javascripts/json2.js HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+66.168.44.202 - - [Tue, 24 Mar 2015 14:37:13 GMT] "GET /javascripts/prettify.js HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+66.168.44.202 - - [Tue, 24 Mar 2015 14:37:13 GMT] "GET /javascripts/utilities.js HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+66.168.44.202 - - [Tue, 24 Mar 2015 14:37:13 GMT] "GET /javascripts/livedocs.js HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+66.168.44.202 - - [Tue, 24 Mar 2015 14:37:13 GMT] "GET /javascripts/docs.js HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+66.168.44.202 - - [Tue, 24 Mar 2015 14:37:13 GMT] "GET /javascripts/bookmarks.js HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+66.168.44.202 - - [Tue, 24 Mar 2015 14:37:17 GMT] "GET /theravid1 HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+66.168.44.202 - - [Tue, 24 Mar 2015 14:37:17 GMT] "GET /stylesheets/prettify.css HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+66.168.44.202 - - [Tue, 24 Mar 2015 14:37:17 GMT] "GET /stylesheets/style.css HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+66.168.44.202 - - [Tue, 24 Mar 2015 14:37:17 GMT] "GET /stylesheets/jquery-ui-latest.custom.css HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+66.168.44.202 - - [Tue, 24 Mar 2015 14:37:17 GMT] "GET /stylesheets/form.css HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+66.168.44.202 - - [Tue, 24 Mar 2015 14:37:17 GMT] "GET /stylesheets/alpaca-jqueryui.css HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+66.168.44.202 - - [Tue, 24 Mar 2015 14:37:17 GMT] "GET /images/accept.png HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+66.168.44.202 - - [Tue, 24 Mar 2015 14:37:17 GMT] "GET /javascripts/jquery-1.11.1.min.js HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+66.168.44.202 - - [Tue, 24 Mar 2015 14:37:17 GMT] "GET /javascripts/jquery.tmpl.js HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+66.168.44.202 - - [Tue, 24 Mar 2015 14:37:17 GMT] "GET /javascripts/jquery-ui-latest.custom.min.js HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+66.168.44.202 - - [Tue, 24 Mar 2015 14:37:17 GMT] "GET /javascripts/alpaca.js HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+66.168.44.202 - - [Tue, 24 Mar 2015 14:37:17 GMT] "GET /javascripts/form.js HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+66.168.44.202 - - [Tue, 24 Mar 2015 14:37:17 GMT] "GET /javascripts/json2.js HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+66.168.44.202 - - [Tue, 24 Mar 2015 14:37:17 GMT] "GET /javascripts/prettify.js HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+66.168.44.202 - - [Tue, 24 Mar 2015 14:37:17 GMT] "GET /javascripts/livedocs.js HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+66.168.44.202 - - [Tue, 24 Mar 2015 14:37:17 GMT] "GET /javascripts/utilities.js HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+66.168.44.202 - - [Tue, 24 Mar 2015 14:37:17 GMT] "GET /javascripts/docs.js HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+66.168.44.202 - - [Tue, 24 Mar 2015 14:37:17 GMT] "GET /javascripts/bookmarks.js HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+66.168.44.202 - - [Tue, 24 Mar 2015 14:37:17 GMT] "GET /data/theravid1.json HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+in processRequest
+json:  { first_name: 'Bob',
+  last_name: 'Jones',
+  email: 'jones@example.com',
+  birthday: '12/12/2012' }
+locations:  { patient_id: 'query',
+  first_name: 'query',
+  last_name: 'query',
+  email: 'query',
+  birthday: 'query' }
+Unsecured Call
+Protocol: HTTP
+66.168.44.202 - - [Tue, 24 Mar 2015 14:52:55 GMT] "POST /processReq HTTP/1.1" 401 819 "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+66.168.44.202 - - [Tue, 24 Mar 2015 14:53:05 GMT] "POST /processReq HTTP/1.1" 401 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+in processRequest
+json:  { first_name: 'Bob',
+  last_name: 'Jones',
+  email: 'jones@example.com',
+  birthday: '12/12/2012' }
+locations:  { patient_id: 'query',
+  first_name: 'query',
+  last_name: 'query',
+  email: 'query',
+  birthday: 'query' }
+Unsecured Call
+api_key
+Protocol: HTTP
+66.168.44.202 - - [Tue, 24 Mar 2015 14:53:07 GMT] "POST /processReq HTTP/1.1" 400 822 "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+in processRequest
+json:  { first_name: 'Bob',
+  last_name: 'Jones',
+  email: 'j1231231ones@example.com',
+  birthday: '12/12/2012' }
+locations:  { patient_id: 'query',
+  first_name: 'query',
+  last_name: 'query',
+  email: 'query',
+  birthday: 'query' }
+Unsecured Call
+api_key
+Protocol: HTTP
+66.168.44.202 - - [Tue, 24 Mar 2015 14:53:19 GMT] "POST /processReq HTTP/1.1" 400 829 "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+in processRequest
+json:  { first_name: 'Bob',
+  last_name: 'Jones',
+  email: 'j1231231ones@example.com',
+  birthday: '12/12/2012' }
+locations:  { patient_id: 'query',
+  first_name: 'query',
+  last_name: 'query',
+  email: 'query',
+  birthday: 'query' }
+Unsecured Call
+api_key
+Protocol: HTTP
+66.168.44.202 - - [Tue, 24 Mar 2015 14:53:22 GMT] "POST /processReq HTTP/1.1" 400 829 "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+in processRequest
+json:  { first_name: 'Bob',
+  last_name: 'Jones',
+  email: 'j1231231ones@example.com',
+  birthday: '12/12/2012' }
+locations:  { patient_id: 'query',
+  first_name: 'query',
+  last_name: 'query',
+  email: 'query',
+  birthday: 'query' }
+Unsecured Call
+api_key
+Protocol: HTTP
+66.168.44.202 - - [Tue, 24 Mar 2015 14:54:53 GMT] "POST /processReq HTTP/1.1" 200 1030 "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+in processRequest
+json:  { first_name: 'Bob',
+  last_name: 'Jones',
+  email: 'j1231231ones@example.com',
+  birthday: '12/12/2012' }
+locations:  { patient_id: 'query',
+  first_name: 'query',
+  last_name: 'query',
+  email: 'query',
+  birthday: 'query' }
+Unsecured Call
+api_key
+Protocol: HTTP
+66.168.44.202 - - [Tue, 24 Mar 2015 14:54:56 GMT] "POST /processReq HTTP/1.1" 400 829 "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+in processRequest
+json:  { first_name: 'Bob',
+  last_name: 'Jones',
+  email: 'j1231231ones@example.com',
+  birthday: '12/12/2012' }
+locations:  { patient_id: 'query',
+  first_name: 'query',
+  last_name: 'query',
+  email: 'query',
+  birthday: 'query' }
+Unsecured Call
+api_key
+Protocol: HTTP
+66.168.44.202 - - [Tue, 24 Mar 2015 14:55:46 GMT] "POST /processReq HTTP/1.1" 400 829 "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+in processRequest
+json:  { first_name: 'Bob',
+  last_name: 'Jones',
+  email: 'j14231231ones@example.com',
+  birthday: '12/12/2012' }
+locations:  { patient_id: 'query',
+  first_name: 'query',
+  last_name: 'query',
+  email: 'query',
+  birthday: 'query' }
+Unsecured Call
+api_key
+Protocol: HTTP
+66.168.44.202 - - [Tue, 24 Mar 2015 14:55:50 GMT] "POST /processReq HTTP/1.1" 200 1032 "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 18:11:01 GMT] "GET / HTTP/1.1" 401 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 18:11:03 GMT] "GET / HTTP/1.1" 200 1637 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 18:11:03 GMT] "GET /stylesheets/style.css HTTP/1.1" 200 13259 "http://iodocs.theravid-staging.com:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 18:11:03 GMT] "GET /stylesheets/prettify.css HTTP/1.1" 200 621 "http://iodocs.theravid-staging.com:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 18:11:03 GMT] "GET /stylesheets/form.css HTTP/1.1" 200 911 "http://iodocs.theravid-staging.com:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 18:11:03 GMT] "GET /stylesheets/alpaca-jqueryui.css HTTP/1.1" 200 1069 "http://iodocs.theravid-staging.com:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 18:11:03 GMT] "GET /stylesheets/jquery-ui-latest.custom.css HTTP/1.1" 200 26429 "http://iodocs.theravid-staging.com:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 18:11:03 GMT] "GET /javascripts/jquery.tmpl.js HTTP/1.1" 200 19198 "http://iodocs.theravid-staging.com:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 18:11:03 GMT] "GET /javascripts/jquery-ui-latest.custom.min.js HTTP/1.1" 200 74000 "http://iodocs.theravid-staging.com:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 18:11:03 GMT] "GET /javascripts/form.js HTTP/1.1" 200 16352 "http://iodocs.theravid-staging.com:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 18:11:03 GMT] "GET /javascripts/json2.js HTTP/1.1" 200 17412 "http://iodocs.theravid-staging.com:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 18:11:03 GMT] "GET /javascripts/jquery-1.11.1.min.js HTTP/1.1" 200 95785 "http://iodocs.theravid-staging.com:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 18:11:03 GMT] "GET /javascripts/prettify.js HTTP/1.1" 200 18752 "http://iodocs.theravid-staging.com:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 18:11:04 GMT] "GET /javascripts/utilities.js HTTP/1.1" 200 1892 "http://iodocs.theravid-staging.com:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 18:11:04 GMT] "GET /javascripts/livedocs.js HTTP/1.1" 200 1590 "http://iodocs.theravid-staging.com:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 18:11:04 GMT] "GET /javascripts/docs.js HTTP/1.1" 200 13439 "http://iodocs.theravid-staging.com:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 18:11:04 GMT] "GET /javascripts/bookmarks.js HTTP/1.1" 200 731 "http://iodocs.theravid-staging.com:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 18:11:04 GMT] "GET /javascripts/alpaca.js HTTP/1.1" 200 802626 "http://iodocs.theravid-staging.com:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 18:11:04 GMT] "GET /favicon.ico HTTP/1.1" 404 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 18:11:08 GMT] "GET /theravid1 HTTP/1.1" 200 6361 "http://iodocs.theravid-staging.com:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 18:11:08 GMT] "GET /stylesheets/prettify.css HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 18:11:08 GMT] "GET /stylesheets/style.css HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 18:11:08 GMT] "GET /stylesheets/jquery-ui-latest.custom.css HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 18:11:08 GMT] "GET /stylesheets/form.css HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 18:11:08 GMT] "GET /stylesheets/alpaca-jqueryui.css HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 18:11:08 GMT] "GET /images/accept.png HTTP/1.1" 200 781 "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 18:11:08 GMT] "GET /javascripts/jquery-1.11.1.min.js HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 18:11:08 GMT] "GET /javascripts/jquery.tmpl.js HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 18:11:08 GMT] "GET /javascripts/jquery-ui-latest.custom.min.js HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 18:11:08 GMT] "GET /javascripts/alpaca.js HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 18:11:08 GMT] "GET /javascripts/form.js HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 18:11:08 GMT] "GET /javascripts/json2.js HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 18:11:08 GMT] "GET /javascripts/prettify.js HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 18:11:08 GMT] "GET /javascripts/utilities.js HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 18:11:08 GMT] "GET /javascripts/livedocs.js HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 18:11:08 GMT] "GET /javascripts/bookmarks.js HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 18:11:08 GMT] "GET /javascripts/docs.js HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 18:11:08 GMT] "GET /data/theravid1.json HTTP/1.1" 200 4278 "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+in processRequest
+json:  { first_name: 'Bob',
+  last_name: 'Jones',
+  email: 'jones@example.com',
+  birthday: '12/12/2012' }
+locations:  { patient_id: 'query',
+  first_name: 'query',
+  last_name: 'query',
+  email: 'query',
+  birthday: 'query' }
+Unsecured Call
+api_key
+Protocol: HTTP
+76.24.17.254 - - [Tue, 24 Mar 2015 18:39:32 GMT] "POST /processReq HTTP/1.1" 400 822 "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+in processRequest
+json:  { first_name: 'Bob',
+  last_name: 'Jones',
+  email: 'jones@example.com',
+  birthday: '12/12/2012' }
+locations:  { patient_id: 'query',
+  first_name: 'query',
+  last_name: 'query',
+  email: 'query',
+  birthday: 'query' }
+Unsecured Call
+api_key
+Protocol: HTTP
+76.24.17.254 - - [Tue, 24 Mar 2015 18:40:31 GMT] "POST /processReq HTTP/1.1" 400 815 "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+in processRequest
+json:  { patient_id: '12345',
+  first_name: 'Bob',
+  last_name: 'Jones',
+  email: 'jo999nes@example.com',
+  birthday: '12/12/2012' }
+locations:  { patient_id: 'query',
+  first_name: 'query',
+  last_name: 'query',
+  email: 'query',
+  birthday: 'query' }
+Unsecured Call
+api_key
+Protocol: HTTP
+76.24.17.254 - - [Tue, 24 Mar 2015 18:40:53 GMT] "POST /processReq HTTP/1.1" 400 835 "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+in processRequest
+json:  { patient_id: '12345',
+  first_name: 'Bob',
+  last_name: 'Jones',
+  email: 'joqweqweqnes@example.com',
+  birthday: '12/12/2012' }
+locations:  { patient_id: 'query',
+  first_name: 'query',
+  last_name: 'query',
+  email: 'query',
+  birthday: 'query' }
+Unsecured Call
+api_key
+Protocol: HTTP
+76.24.17.254 - - [Tue, 24 Mar 2015 18:41:08 GMT] "POST /processReq HTTP/1.1" 400 839 "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+in processRequest
+json:  { first_name: 'Bob',
+  last_name: 'Jones',
+  email: 'joqweqweqnes@example.com',
+  birthday: '12/12/2012' }
+locations:  { patient_id: 'query',
+  first_name: 'query',
+  last_name: 'query',
+  email: 'query',
+  birthday: 'query' }
+Unsecured Call
+api_key
+Protocol: HTTP
+76.24.17.254 - - [Tue, 24 Mar 2015 18:41:16 GMT] "POST /processReq HTTP/1.1" 200 1030 "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+in processRequest
+json:  { patient_id: '23',
+  first_name: 'Bob',
+  last_name: 'Jones',
+  email: 'joq23weqweqnes@example.com',
+  birthday: '12/12/2012' }
+locations:  { patient_id: 'query',
+  first_name: 'query',
+  last_name: 'query',
+  email: 'query',
+  birthday: 'query' }
+Unsecured Call
+api_key
+Protocol: HTTP
+76.24.17.254 - - [Tue, 24 Mar 2015 18:42:55 GMT] "POST /processReq HTTP/1.1" 400 838 "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+in processRequest
+json:  { patient_id: '23',
+  first_name: 'Bob',
+  last_name: 'Jones',
+  email: 'joq23weqweqnes@example.com',
+  birthday: '12/12/2012' }
+locations:  { patient_id: 'query',
+  first_name: 'query',
+  last_name: 'query',
+  email: 'query',
+  birthday: 'query' }
+Unsecured Call
+api_key
+Protocol: HTTP
+76.24.17.254 - - [Tue, 24 Mar 2015 18:45:04 GMT] "POST /processReq HTTP/1.1" 200 1050 "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+in processRequest
+json:  { patient_id: '23',
+  first_name: 'Bob',
+  last_name: 'Jones',
+  email: 'joq2123weqweqnes@example.com',
+  birthday: '12/12/2012' }
+locations:  { patient_id: 'query',
+  first_name: 'query',
+  last_name: 'query',
+  email: 'query',
+  birthday: 'query' }
+Unsecured Call
+api_key
+Protocol: HTTP
+76.24.17.254 - - [Tue, 24 Mar 2015 18:45:12 GMT] "POST /processReq HTTP/1.1" 400 840 "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+in processRequest
+json:  { patient_id: '234',
+  first_name: 'Bob',
+  last_name: 'Jones',
+  email: 'joq2123weqweqnes@example.com',
+  birthday: '12/12/2012' }
+locations:  { patient_id: 'query',
+  first_name: 'query',
+  last_name: 'query',
+  email: 'query',
+  birthday: 'query' }
+Unsecured Call
+api_key
+Protocol: HTTP
+76.24.17.254 - - [Tue, 24 Mar 2015 18:46:28 GMT] "POST /processReq HTTP/1.1" 200 1056 "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+in processRequest
+json:  { patient_id: '234',
+  first_name: 'Bob',
+  last_name: 'Jones',
+  email: 'joq2123weqweqnes@example.com',
+  birthday: '12/12/2012' }
+locations:  { patient_id: 'query',
+  first_name: 'query',
+  last_name: 'query',
+  email: 'query',
+  birthday: 'query' }
+Unsecured Call
+api_key
+Protocol: HTTP
+76.24.17.254 - - [Tue, 24 Mar 2015 18:46:33 GMT] "POST /processReq HTTP/1.1" 400 841 "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+in processRequest
+json:  { patient_id: '2345',
+  first_name: 'Bob',
+  last_name: 'Jones',
+  email: 'joq2123weqweqnes@example.com',
+  birthday: '12/12/2012' }
+locations:  { patient_id: 'query',
+  first_name: 'query',
+  last_name: 'query',
+  email: 'query',
+  birthday: 'query' }
+Unsecured Call
+api_key
+Protocol: HTTP
+76.24.17.254 - - [Tue, 24 Mar 2015 18:46:38 GMT] "POST /processReq HTTP/1.1" 400 842 "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+in processRequest
+json:  { patient_id: '2345',
+  first_name: 'Bob',
+  last_name: 'Jones',
+  email: 'joq2123weqweqnes@example.com',
+  birthday: '12/12/2012' }
+locations:  { patient_id: 'query',
+  first_name: 'query',
+  last_name: 'query',
+  email: 'query',
+  birthday: 'query' }
+Unsecured Call
+api_key
+Protocol: HTTP
+76.24.17.254 - - [Tue, 24 Mar 2015 18:47:48 GMT] "POST /processReq HTTP/1.1" 400 842 "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+in processRequest
+json:  { patient_id: '2344',
+  first_name: 'Bob',
+  last_name: 'Jones',
+  email: 'joq2123weqweqnes@example.com',
+  birthday: '12/12/2012' }
+locations:  { patient_id: 'query',
+  first_name: 'query',
+  last_name: 'query',
+  email: 'query',
+  birthday: 'query' }
+Unsecured Call
+api_key
+Protocol: HTTP
+76.24.17.254 - - [Tue, 24 Mar 2015 18:47:55 GMT] "POST /processReq HTTP/1.1" 400 842 "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+in processRequest
+json:  { patient_id: '2344',
+  first_name: 'Bob',
+  last_name: 'Jones',
+  email: 'joq2123weqweqnes@example.com',
+  birthday: '12/12/2012' }
+locations:  { patient_id: 'query',
+  first_name: 'query',
+  last_name: 'query',
+  email: 'query',
+  birthday: 'query' }
+Unsecured Call
+api_key
+Protocol: HTTP
+76.24.17.254 - - [Tue, 24 Mar 2015 18:47:56 GMT] "POST /processReq HTTP/1.1" 400 842 "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+in processRequest
+json:  { patient_id: '2344',
+  first_name: 'Bob',
+  last_name: 'Jones',
+  email: 'joq21123weqweqnes@example.com',
+  birthday: '12/12/2012' }
+locations:  { patient_id: 'query',
+  first_name: 'query',
+  last_name: 'query',
+  email: 'query',
+  birthday: 'query' }
+Unsecured Call
+api_key
+Protocol: HTTP
+76.24.17.254 - - [Tue, 24 Mar 2015 18:48:00 GMT] "POST /processReq HTTP/1.1" 200 1060 "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+in processRequest
+json:  { patient_id: '1249' }
+locations:  { patient_id: 'query' }
+Unsecured Call
+api_key
+Protocol: HTTP
+76.24.17.254 - - [Tue, 24 Mar 2015 18:48:11 GMT] "POST /processReq HTTP/1.1" 404 723 "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+Express server starting on 0.0.0.0:3000
+76.24.17.254 - - [Tue, 24 Mar 2015 19:04:08 GMT] "GET /theravid1 HTTP/1.1" 200 6363 "http://iodocs.theravid-staging.com:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 19:04:08 GMT] "GET /stylesheets/style.css HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 19:04:08 GMT] "GET /stylesheets/prettify.css HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 19:04:08 GMT] "GET /stylesheets/jquery-ui-latest.custom.css HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 19:04:08 GMT] "GET /stylesheets/alpaca-jqueryui.css HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 19:04:08 GMT] "GET /images/accept.png HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 19:04:08 GMT] "GET /stylesheets/form.css HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 19:04:08 GMT] "GET /javascripts/jquery-1.11.1.min.js HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 19:04:08 GMT] "GET /javascripts/jquery.tmpl.js HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 19:04:08 GMT] "GET /javascripts/alpaca.js HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 19:04:08 GMT] "GET /javascripts/jquery-ui-latest.custom.min.js HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 19:04:08 GMT] "GET /javascripts/form.js HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 19:04:08 GMT] "GET /javascripts/json2.js HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 19:04:08 GMT] "GET /javascripts/prettify.js HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 19:04:08 GMT] "GET /javascripts/utilities.js HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 19:04:08 GMT] "GET /javascripts/livedocs.js HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 19:04:08 GMT] "GET /javascripts/bookmarks.js HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 19:04:08 GMT] "GET /javascripts/docs.js HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 19:04:08 GMT] "GET /data/theravid1.json HTTP/1.1" 200 4279 "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+in processRequest
+json:  {}
+locations:  { patient_id: 'query' }
+Unsecured Call
+api_key
+Protocol: HTTP
+76.24.17.254 - - [Tue, 24 Mar 2015 19:04:22 GMT] "POST /processReq HTTP/1.1" 404 713 "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+in processRequest
+json:  { patient_id: '5634',
+  first_name: 'Bob',
+  last_name: 'Jones',
+  email: 'joneasasas@example.com',
+  birthday: '12/12/2012' }
+locations:  { patient_id: 'query',
+  first_name: 'query',
+  last_name: 'query',
+  email: 'query',
+  birthday: 'query' }
+Unsecured Call
+api_key
+Protocol: HTTP
+76.24.17.254 - - [Tue, 24 Mar 2015 19:04:35 GMT] "POST /processReq HTTP/1.1" 200 1046 "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+in processRequest
+json:  { patient_id: '1250' }
+locations:  { patient_id: 'query' }
+Unsecured Call
+api_key
+Protocol: HTTP
+76.24.17.254 - - [Tue, 24 Mar 2015 19:04:47 GMT] "POST /processReq HTTP/1.1" 200 941 "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+in processRequest
+json:  { patient_id: '1250',
+  first_name: 'Bob',
+  last_name: 'Jones',
+  email: 'jaones9999@example.com',
+  birthday: '12/12/2012' }
+locations:  { patient_id: 'query',
+  first_name: 'query',
+  last_name: 'query',
+  email: 'query',
+  birthday: 'query' }
+Unsecured Call
+api_key
+Protocol: HTTP
+76.24.17.254 - - [Tue, 24 Mar 2015 19:06:12 GMT] "POST /processReq HTTP/1.1" 405 895 "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+in processRequest
+json:  { patient_id: '1250',
+  first_name: 'Bob',
+  last_name: 'Jones',
+  email: 'jaones9999@example.com',
+  birthday: '12/12/2012' }
+locations:  { patient_id: 'query',
+  first_name: 'query',
+  last_name: 'query',
+  email: 'query',
+  birthday: 'query' }
+Unsecured Call
+api_key
+Protocol: HTTP
+76.24.17.254 - - [Tue, 24 Mar 2015 19:10:37 GMT] "POST /processReq HTTP/1.1" 405 895 "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+in processRequest
+json:  { patient_id: '1250',
+  first_name: 'Bob',
+  last_name: 'Jones',
+  email: 'jaones9999@example.com',
+  birthday: '12/12/2012' }
+locations:  { patient_id: 'query',
+  first_name: 'query',
+  last_name: 'query',
+  email: 'query',
+  birthday: 'query' }
+Unsecured Call
+api_key
+Protocol: HTTP
+76.24.17.254 - - [Tue, 24 Mar 2015 19:10:40 GMT] "POST /processReq HTTP/1.1" 405 895 "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+Express server starting on 0.0.0.0:3000
+76.24.17.254 - - [Tue, 24 Mar 2015 19:11:11 GMT] "GET /theravid1 HTTP/1.1" 200 6365 "http://iodocs.theravid-staging.com:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 19:11:12 GMT] "GET /stylesheets/style.css HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 19:11:12 GMT] "GET /stylesheets/prettify.css HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 19:11:12 GMT] "GET /stylesheets/jquery-ui-latest.custom.css HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 19:11:12 GMT] "GET /stylesheets/alpaca-jqueryui.css HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 19:11:12 GMT] "GET /images/accept.png HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 19:11:12 GMT] "GET /stylesheets/form.css HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 19:11:12 GMT] "GET /javascripts/jquery-1.11.1.min.js HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 19:11:12 GMT] "GET /javascripts/jquery-ui-latest.custom.min.js HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 19:11:12 GMT] "GET /javascripts/alpaca.js HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 19:11:12 GMT] "GET /javascripts/form.js HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 19:11:12 GMT] "GET /javascripts/jquery.tmpl.js HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 19:11:12 GMT] "GET /javascripts/json2.js HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 19:11:12 GMT] "GET /javascripts/prettify.js HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 19:11:12 GMT] "GET /javascripts/livedocs.js HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 19:11:12 GMT] "GET /javascripts/utilities.js HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 19:11:12 GMT] "GET /javascripts/docs.js HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 19:11:12 GMT] "GET /javascripts/bookmarks.js HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 19:11:12 GMT] "GET /data/theravid1.json HTTP/1.1" 200 4280 "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+in processRequest
+json:  { patient_id: '1250' }
+locations:  { patient_id: 'query' }
+Unsecured Call
+api_key
+Protocol: HTTP
+76.24.17.254 - - [Tue, 24 Mar 2015 19:11:29 GMT] "POST /processReq HTTP/1.1" 200 941 "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+in processRequest
+json:  { patient_id: '1250',
+  first_name: 'Bob',
+  last_name: 'Jones',
+  email: 'jqwqwqones@example.com',
+  birthday: '12/12/2012' }
+locations:  { patient_id: 'query',
+  first_name: 'query',
+  last_name: 'query',
+  email: 'query',
+  birthday: 'query' }
+Unsecured Call
+api_key
+Protocol: HTTP
+76.24.17.254 - - [Tue, 24 Mar 2015 19:11:43 GMT] "POST /processReq HTTP/1.1" 200 1041 "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+in processRequest
+json:  { patient_id: '1250',
+  first_name: 'Tom',
+  last_name: 'Jones',
+  email: 'jqwqwqones@example.com',
+  birthday: '12/12/2012' }
+locations:  { patient_id: 'query',
+  first_name: 'query',
+  last_name: 'query',
+  email: 'query',
+  birthday: 'query' }
+Unsecured Call
+api_key
+Protocol: HTTP
+76.24.17.254 - - [Tue, 24 Mar 2015 19:12:20 GMT] "POST /processReq HTTP/1.1" 200 1041 "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+Express server starting on 0.0.0.0:3000
+76.24.17.254 - - [Tue, 24 Mar 2015 19:23:52 GMT] "GET /theravid1 HTTP/1.1" 200 6333 "http://iodocs.theravid-staging.com:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 19:23:53 GMT] "GET /stylesheets/prettify.css HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 19:23:53 GMT] "GET /stylesheets/style.css HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 19:23:53 GMT] "GET /stylesheets/jquery-ui-latest.custom.css HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 19:23:53 GMT] "GET /stylesheets/form.css HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 19:23:53 GMT] "GET /stylesheets/alpaca-jqueryui.css HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 19:23:53 GMT] "GET /images/accept.png HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 19:23:53 GMT] "GET /javascripts/jquery-1.11.1.min.js HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 19:23:53 GMT] "GET /javascripts/jquery.tmpl.js HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 19:23:53 GMT] "GET /javascripts/jquery-ui-latest.custom.min.js HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 19:23:53 GMT] "GET /javascripts/alpaca.js HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 19:23:53 GMT] "GET /javascripts/json2.js HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 19:23:53 GMT] "GET /javascripts/form.js HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 19:23:53 GMT] "GET /javascripts/prettify.js HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 19:23:53 GMT] "GET /javascripts/livedocs.js HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 19:23:53 GMT] "GET /javascripts/utilities.js HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 19:23:53 GMT] "GET /javascripts/docs.js HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 19:23:53 GMT] "GET /javascripts/bookmarks.js HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 19:23:53 GMT] "GET /data/theravid1.json HTTP/1.1" 200 4759 "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+in processRequest
+json:  { id: '1250' }
+locations:  { id: 'query' }
+Unsecured Call
+Protocol: HTTP
+76.24.17.254 - - [Tue, 24 Mar 2015 20:20:28 GMT] "POST /processReq HTTP/1.1" 401 724 "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 20:20:41 GMT] "POST /processReq HTTP/1.1" 401 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+in processRequest
+json:  { id: '1250' }
+locations:  { id: 'query' }
+Unsecured Call
+api_key
+Protocol: HTTP
+76.24.17.254 - - [Tue, 24 Mar 2015 20:20:43 GMT] "POST /processReq HTTP/1.1" 200 941 "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+in processRequest
+json:  { id: '1250',
+  custom_id: '5634',
+  first_name: 'Jim',
+  last_name: 'Jones',
+  email: 'jones@example.com',
+  birthday: '12/12/2012' }
+locations:  { id: 'query',
+  custom_id: 'query',
+  first_name: 'query',
+  last_name: 'query',
+  email: 'query',
+  birthday: 'query' }
+Unsecured Call
+api_key
+Protocol: HTTP
+76.24.17.254 - - [Tue, 24 Mar 2015 20:21:16 GMT] "POST /processReq HTTP/1.1" 200 1053 "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+in processRequest
+json:  { id: '1250' }
+locations:  { id: 'query' }
+Unsecured Call
+api_key
+Protocol: HTTP
+76.24.17.254 - - [Tue, 24 Mar 2015 20:22:04 GMT] "POST /processReq HTTP/1.1" 200 936 "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+in processRequest
+json:  { custom_id: '999',
+  first_name: 'Bob',
+  last_name: 'Jones',
+  email: 'jones@example.com',
+  birthday: '2000-12-12' }
+locations:  { id: 'query',
+  custom_id: 'query',
+  first_name: 'query',
+  last_name: 'query',
+  email: 'query',
+  birthday: 'query' }
+Unsecured Call
+api_key
+Protocol: HTTP
+76.24.17.254 - - [Tue, 24 Mar 2015 21:07:59 GMT] "POST /processReq HTTP/1.1" 400 825 "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+in processRequest
+json:  { custom_id: '999',
+  first_name: 'Bob',
+  last_name: 'Jones',
+  email: 'jones999@example.com',
+  birthday: '2000-12-12' }
+locations:  { id: 'query',
+  custom_id: 'query',
+  first_name: 'query',
+  last_name: 'query',
+  email: 'query',
+  birthday: 'query' }
+Unsecured Call
+api_key
+Protocol: HTTP
+76.24.17.254 - - [Tue, 24 Mar 2015 21:08:09 GMT] "POST /processReq HTTP/1.1" 200 1031 "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+in processRequest
+json:  { id: '1251' }
+locations:  { id: 'query' }
+Unsecured Call
+api_key
+Protocol: HTTP
+76.24.17.254 - - [Tue, 24 Mar 2015 21:08:21 GMT] "POST /processReq HTTP/1.1" 200 938 "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+Express server starting on 0.0.0.0:3000
+76.24.17.254 - - [Tue, 24 Mar 2015 21:22:20 GMT] "GET /theravid1 HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 21:22:21 GMT] "GET /stylesheets/prettify.css HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 21:22:21 GMT] "GET /stylesheets/jquery-ui-latest.custom.css HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 21:22:21 GMT] "GET /stylesheets/style.css HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 21:22:21 GMT] "GET /stylesheets/alpaca-jqueryui.css HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 21:22:21 GMT] "GET /stylesheets/form.css HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 21:22:21 GMT] "GET /javascripts/jquery-1.11.1.min.js HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 21:22:21 GMT] "GET /javascripts/jquery.tmpl.js HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 21:22:21 GMT] "GET /javascripts/alpaca.js HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 21:22:21 GMT] "GET /javascripts/jquery-ui-latest.custom.min.js HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 21:22:21 GMT] "GET /javascripts/form.js HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 21:22:21 GMT] "GET /javascripts/json2.js HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 21:22:21 GMT] "GET /javascripts/prettify.js HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 21:22:21 GMT] "GET /javascripts/utilities.js HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 21:22:21 GMT] "GET /javascripts/livedocs.js HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 21:22:21 GMT] "GET /images/accept.png HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 21:22:21 GMT] "GET /javascripts/docs.js HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 21:22:21 GMT] "GET /javascripts/bookmarks.js HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 21:22:21 GMT] "GET /data/theravid1.json HTTP/1.1" 200 4492 "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+in processRequest
+json:  { custom_id: '123asd',
+  first_name: 'Bob',
+  last_name: 'Jones',
+  email: 'jones@example.com',
+  birthday: '12/12/2012' }
+locations:  { custom_id: 'query',
+  first_name: 'query',
+  last_name: 'query',
+  email: 'query',
+  birthday: 'query' }
+Unsecured Call
+Protocol: HTTP
+76.24.17.254 - - [Tue, 24 Mar 2015 21:25:50 GMT] "POST /processReq HTTP/1.1" 401 836 "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 21:26:03 GMT] "POST /processReq HTTP/1.1" 401 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+in processRequest
+json:  { custom_id: '123123',
+  first_name: 'Bob',
+  last_name: 'Jones',
+  email: 'jones@example.com',
+  birthday: '12/12/2012' }
+locations:  { custom_id: 'query',
+  first_name: 'query',
+  last_name: 'query',
+  email: 'query',
+  birthday: 'query' }
+Unsecured Call
+Protocol: HTTP
+76.24.17.254 - - [Tue, 24 Mar 2015 21:26:05 GMT] "POST /processReq HTTP/1.1" 401 836 "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 21:26:23 GMT] "POST /processReq HTTP/1.1" 401 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+in processRequest
+json:  { custom_id: '123as',
+  first_name: 'Bob',
+  last_name: 'Jones',
+  email: 'jo23456nes@example.com',
+  birthday: '12/12/2012' }
+locations:  { custom_id: 'query',
+  first_name: 'query',
+  last_name: 'query',
+  email: 'query',
+  birthday: 'query' }
+Unsecured Call
+api_key
+Protocol: HTTP
+76.24.17.254 - - [Tue, 24 Mar 2015 21:26:35 GMT] "POST /processReq HTTP/1.1" 200 1047 "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+in processRequest
+json:  { id: '1252' }
+locations:  { id: 'query' }
+Unsecured Call
+api_key
+Protocol: HTTP
+76.24.17.254 - - [Tue, 24 Mar 2015 21:26:55 GMT] "POST /processReq HTTP/1.1" 200 942 "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+Express server starting on 0.0.0.0:3000
+76.24.17.254 - - [Tue, 24 Mar 2015 21:29:09 GMT] "GET /theravid1 HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 21:29:09 GMT] "GET /stylesheets/prettify.css HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 21:29:09 GMT] "GET /stylesheets/style.css HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 21:29:09 GMT] "GET /stylesheets/jquery-ui-latest.custom.css HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 21:29:09 GMT] "GET /stylesheets/form.css HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 21:29:09 GMT] "GET /stylesheets/alpaca-jqueryui.css HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 21:29:09 GMT] "GET /javascripts/jquery-1.11.1.min.js HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 21:29:09 GMT] "GET /javascripts/jquery.tmpl.js HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 21:29:09 GMT] "GET /javascripts/jquery-ui-latest.custom.min.js HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 21:29:09 GMT] "GET /javascripts/form.js HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 21:29:09 GMT] "GET /javascripts/alpaca.js HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 21:29:09 GMT] "GET /javascripts/prettify.js HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 21:29:09 GMT] "GET /javascripts/json2.js HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 21:29:09 GMT] "GET /javascripts/utilities.js HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 21:29:09 GMT] "GET /javascripts/docs.js HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 21:29:09 GMT] "GET /javascripts/livedocs.js HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 21:29:09 GMT] "GET /images/accept.png HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 21:29:09 GMT] "GET /javascripts/bookmarks.js HTTP/1.1" 304 - "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+76.24.17.254 - - [Tue, 24 Mar 2015 21:29:09 GMT] "GET /data/theravid1.json HTTP/1.1" 200 4490 "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+in processRequest
+json:  { custom_id: '123we',
+  first_name: 'Bob',
+  last_name: 'Jones',
+  email: 'joneASDass@example.com',
+  birthday: '2000-3-24' }
+locations:  { custom_id: 'query',
+  first_name: 'query',
+  last_name: 'query',
+  email: 'query',
+  birthday: 'query' }
+Unsecured Call
+api_key
+Protocol: HTTP
+76.24.17.254 - - [Tue, 24 Mar 2015 21:29:25 GMT] "POST /processReq HTTP/1.1" 200 1037 "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+in processRequest
+json:  { id: '1253' }
+locations:  { id: 'query' }
+Unsecured Call
+api_key
+Protocol: HTTP
+76.24.17.254 - - [Tue, 24 Mar 2015 21:29:36 GMT] "POST /processReq HTTP/1.1" 200 942 "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+in processRequest
+json:  { id: '1253', email: 'jonemmmmms@example.com' }
+locations:  { id: 'query',
+  custom_id: 'query',
+  first_name: 'query',
+  last_name: 'query',
+  email: 'query',
+  birthday: 'query' }
+Unsecured Call
+api_key
+Protocol: HTTP
+76.24.17.254 - - [Tue, 24 Mar 2015 21:30:45 GMT] "POST /processReq HTTP/1.1" 200 967 "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+in processRequest
+json:  { id: '1253',
+  custom_id: '123we',
+  first_name: 'Jimmy',
+  last_name: 'Jome',
+  email: 'jonemmmmms@example.com',
+  birthday: '2000-03-24' }
+locations:  { id: 'query',
+  custom_id: 'query',
+  first_name: 'query',
+  last_name: 'query',
+  email: 'query',
+  birthday: 'query' }
+Unsecured Call
+api_key
+Protocol: HTTP
+76.24.17.254 - - [Tue, 24 Mar 2015 21:31:25 GMT] "POST /processReq HTTP/1.1" 200 1059 "http://iodocs.theravid-staging.com:3000/theravid1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"

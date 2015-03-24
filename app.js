@@ -68,7 +68,7 @@ var configFilePath = path.resolve(argv['config-file']);
 try {
     var config = JSON.parse(JSON.minify(fs.readFileSync(configFilePath, 'utf8')));
 } catch(e) {
-    console.error("File " + configFilePath + " not found or is invalid.  Try: `cp config.json.sample config.json`");
+    console.error("File " + configFilePath + " not found or is invalid.");
     process.exit(1);
 }
 

@@ -15,11 +15,11 @@
             "methods": {
                 "GetPatient": {
                     "name": "GetPatient",
-                    "path": "/identity/patients/:patient_id/profile",
+                    "path": "/identity/patients/{id}/profile",
                     "httpMethod": "GET",
                     "description": "Get patient identity profile.",
                     "parameters": {
-                        "patient_id": {
+                        "id": {
                            "required":"Y",
                            "default":"",
                            "type":"string",
@@ -33,12 +33,12 @@
                     "httpMethod": "POST",
                     "description": "Add a new patient to TheraVid",
                     "parameters": {
-                      "patient_id": {
+                      "custom_id": {
                          "required":"Y",
                          "refault":"548768",
                          "type":"string",
-                         "description":"The patient ID from the provider EHR."
-                      },
+                         "description":"The EHR ID for a given patient."
+		      },
                       "first_name": {
                          "required":"Y",
                          "default":"Bob",
@@ -59,7 +59,7 @@
                       },
                       "birthday": {
                          "required":"Y",
-                         "default":"12/12/2012",
+                         "default":"2000-3-24",
                          "type":"string",
                          "description":"The birthday of the patient."
                       }
@@ -67,16 +67,22 @@
                 },
                 "UpdatePatient": {
                     "name": "UpdatePatient",
-                    "path": "/identity/patients/:patient_id/update",
+                    "path": "/identity/patients/{id}/update",
                     "httpMethod": "PUT",
                     "description": "Updates data for a TheraVid patient",
                     "parameters": {
-                      "patient_id": {
+                      "id": {
                          "required":"Y",
                          "refault":"548768",
                          "type":"string",
                          "description":"The patient ID from the provider EHR."
                       },
+                      "custom_id": {
+                         "required":"Y",
+                         "refault":"548768",
+                         "type":"string",
+                         "description":"The EHR ID from the clinic for a given patient."
+		      },
                       "first_name": {
                          "required":"Y",
                          "default":"Bob",
@@ -97,7 +103,7 @@
                       },
                       "birthday": {
                          "required":"Y",
-                         "default":"12/12/2012",
+                         "default":"2000-3-24",
                          "type":"string",
                          "description":"The birthday of the patient."
                       }
