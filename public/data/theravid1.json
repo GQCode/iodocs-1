@@ -39,49 +39,11 @@
                          "type":"string",
                          "description":"The EHR ID for a given patient."
 		      },
-                      "first_name": {
+                      "clinic_id": {
                          "required":"Y",
-                         "default":"Bob",
+                         "default":"548768",
                          "type":"string",
-                         "description":"The first name of the patient."
-                      },
-                      "last_name": {
-                         "required":"Y",
-                         "default":"Jones",
-                         "type":"string",
-                         "description":"The last name of the patient."
-                      },
-                      "email": {
-                         "required":"Y",
-                         "default":"jones@example.com",
-                         "type":"string",
-                         "description":"The email of the patient."
-                      },
-                      "birthday": {
-                         "required":"Y",
-                         "default":"2000-3-24",
-                         "type":"string",
-                         "description":"The birthday of the patient."
-                      }
-                    }
-                },
-                "UpdatePatient": {
-                    "name": "UpdatePatient",
-                    "path": "/identity/patients/{id}/update",
-                    "httpMethod": "PUT",
-                    "description": "Updates data for a TheraVid patient",
-                    "parameters": {
-                      "id": {
-                         "required":"Y",
-                         "refault":"548768",
-                         "type":"string",
-                         "description":"The patient ID from the provider EHR."
-                      },
-                      "custom_id": {
-                         "required":"Y",
-                         "refault":"548768",
-                         "type":"string",
-                         "description":"The EHR ID from the clinic for a given patient."
+                         "description":"The TheraVid clinic ID."
 		      },
                       "first_name": {
                          "required":"Y",
@@ -106,6 +68,68 @@
                          "default":"2000-3-24",
                          "type":"string",
                          "description":"The birthday of the patient."
+                      },
+                      "diagnosis": {
+                         "required":"Y",
+                         "default":"3.14159",
+                         "type":"string",
+                         "description":"The patient's diagnosis (ICD9 code)."
+                      }
+                    }
+                },
+                "UpdatePatient": {
+                    "name": "UpdatePatient",
+                    "path": "/identity/patients/{id}/update",
+                    "httpMethod": "PUT",
+                    "description": "Updates data for a TheraVid patient",
+                    "parameters": {
+                      "id": {
+                         "required":"Y",
+                         "refault":"548768",
+                         "type":"string",
+                         "description":"The patient ID from the provider EHR."
+                      },
+                      "custom_id": {
+                         "required":"Y",
+                         "default":"548768",
+                         "type":"string",
+                         "description":"The EHR ID from the clinic for a given patient."
+		      },
+                      "clinic_id": {
+                         "required":"Y",
+                         "default":"548768",
+                         "type":"string",
+                         "description":"The TheraVid clinic ID."
+		      },
+                      "first_name": {
+                         "required":"Y",
+                         "default":"Bob",
+                         "type":"string",
+                         "description":"The first name of the patient."
+                      },
+                      "last_name": {
+                         "required":"Y",
+                         "default":"Jones",
+                         "type":"string",
+                         "description":"The last name of the patient."
+                      },
+                      "email": {
+                         "required":"Y",
+                         "default":"jones@example.com",
+                         "type":"string",
+                         "description":"The email of the patient."
+                      },
+                      "birthday": {
+                         "required":"Y",
+                         "default":"2000-3-24",
+                         "type":"string",
+                         "description":"The birthday of the patient."
+                      },
+                      "diagnosis": {
+                         "required":"Y",
+                         "default":"3.14159",
+                         "type":"string",
+                         "description":"The patient's diagnosis (ICD9 code)."
                       }
                     }
                 }
